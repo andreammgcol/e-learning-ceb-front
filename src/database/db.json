@@ -53,37 +53,37 @@
             "classes": [
                 {
                     "id": 1,
-                    "name": "1 - Exhibición Leonardo Davinci",
+                    "name": "1 - Principios de Oración I",
                     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in nisl vitae urna scelerisque efficitur. Ut a sem sed erat tristique dignissim. Morbi egestas, lorem imperdiet maximus porta, urna dui porttitor leo, vitae tincidunt augue ex eu dui. Aliquam nec viverra libero, ut consectetur mauris.",
-                    "video_url": "videos/big_buck_bunny.mp4",
-                    "maestro": "Museo arte moderno",
+                    "video_url": "videos/Alegría_obligatoria.mp4",
+                    "maestro": "Chak Garcia",
                     "duration": "01:15",
                     "creditos": "15"
                 },
                 {
                     "id": 2,
-                    "name": "2 - Expocultura 2019",
+                    "name": "2 - Principios Formación Espiritual",
                     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in nisl vitae urna scelerisque efficitur. Ut a sem sed erat tristique dignissim. Morbi egestas, lorem imperdiet maximus porta, urna dui porttitor leo, vitae tincidunt augue ex eu dui. Aliquam nec viverra libero, ut consectetur mauris.",
-                    "video_url": "videos/sample-5s.mp4",
-                    "maestro": "Jardin Botanico Joaquín Antonio Uribe, MAM",
+                    "video_url": "videos/big_buck_bunny.mp4",
+                    "maestro": "Big Buck Bunny",
                     "duration": "01:15",
                     "creditos": "8"
                 },
                 {
                     "id": 3,
-                    "name": "3 - Principios de oracion I",
+                    "name": "3 - Fundamentos de Fe",
                     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in nisl vitae urna scelerisque efficitur. Ut a sem sed erat tristique dignissim. Morbi egestas, lorem imperdiet maximus porta, urna dui porttitor leo, vitae tincidunt augue ex eu dui. Aliquam nec viverra libero, ut consectetur mauris.",
-                    "video_url": "videos/sample-15s.mp4",
-                    "maestro": "Reinaldo Murcia",
+                    "video_url": "videos/El_valor_que_doy.mp4",
+                    "maestro": "Chak Garcia",
                     "duration": "01:15",
                     "creditos": "8"
                 },
                 {
                     "id": 4,
-                    "name": "4 - Guerra Espiritual",
+                    "name": "4 - Ministerios Prácticos",
                     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in nisl vitae urna scelerisque efficitur. Ut a sem sed erat tristique dignissim. Morbi egestas, lorem imperdiet maximus porta, urna dui porttitor leo, vitae tincidunt augue ex eu dui. Aliquam nec viverra libero, ut consectetur mauris.",
                     "video_url": "videos/big_buck_bunny.mp4",
-                    "maestro": "Big buck bunny",
+                    "maestro": "Big Buck Bunny",
                     "duration": "01:15",
                     "creditos": "8"
                 }

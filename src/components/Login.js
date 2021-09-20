@@ -56,7 +56,7 @@ export class Login extends Component {
                                     <h3 className="text-center mb-4">Bienvenido</h3>
                                     {
                                         this.state.userNotValid &&
-                                        <h5 className="text-center mb-4">Error: Usuario no registrado en el sitema.</h5>
+                                        <p className="text-center mb-4" style={{'color': 'red'}}>Error: Usuario no registrado</p>
                                     }
                                     <form action="#" className="login-form">
                                         <div className="form-group login-form">

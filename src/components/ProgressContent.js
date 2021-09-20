@@ -19,11 +19,11 @@ const ProgressContent = (props) => {
 
     return (
         <aside className="rightside">
-            <div className="toggle">
+            {/* <div className="toggle">
                 <a href="#" className="burger js-menu-toggle" data-toggle="collapse" data-target="#main-navbar">
                     <span></span>
                 </a>
-            </div>
+            </div> */}
             <div className="side-inner">
 
                 <div className="action-progress-wrap">
