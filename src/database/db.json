@@ -55,7 +55,7 @@
                     "id": 1,
                     "name": "1 - Principios de Oración I",
                     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in nisl vitae urna scelerisque efficitur. Ut a sem sed erat tristique dignissim. Morbi egestas, lorem imperdiet maximus porta, urna dui porttitor leo, vitae tincidunt augue ex eu dui. Aliquam nec viverra libero, ut consectetur mauris.",
-                    "video_url": "videos/Alegría_obligatoria.mp4",
+                    "video_url": "videos/alegria_obligatoria.mp4",
                     "maestro": "Chak Garcia",
                     "duration": "01:15",
                     "creditos": "15"
@@ -73,7 +73,7 @@
                     "id": 3,
                     "name": "3 - Fundamentos de Fe",
                     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in nisl vitae urna scelerisque efficitur. Ut a sem sed erat tristique dignissim. Morbi egestas, lorem imperdiet maximus porta, urna dui porttitor leo, vitae tincidunt augue ex eu dui. Aliquam nec viverra libero, ut consectetur mauris.",
-                    "video_url": "videos/El_valor_que_doy.mp4",
+                    "video_url": "videos/el_valor_que_doy.mp4",
                     "maestro": "Chak Garcia",
                     "duration": "01:15",
                     "creditos": "8"
