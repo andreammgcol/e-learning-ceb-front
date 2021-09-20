@@ -53,7 +53,7 @@
             "classes": [
                 {
                     "id": 1,
-                    "name": "1 - Principios de Oración I",
+                    "name": "1 - Tres tipos de hombres que Dios busca hoy",
                     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in nisl vitae urna scelerisque efficitur. Ut a sem sed erat tristique dignissim. Morbi egestas, lorem imperdiet maximus porta, urna dui porttitor leo, vitae tincidunt augue ex eu dui. Aliquam nec viverra libero, ut consectetur mauris.",
                     "video_url": "videos/alegria_obligatoria.mp4",
                     "maestro": "Chak Garcia",
@@ -62,7 +62,7 @@
                 },
                 {
                     "id": 2,
-                    "name": "2 - Principios Formación Espiritual",
+                    "name": "2 - El Amor, el fundamento para una oración exitosa",
                     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in nisl vitae urna scelerisque efficitur. Ut a sem sed erat tristique dignissim. Morbi egestas, lorem imperdiet maximus porta, urna dui porttitor leo, vitae tincidunt augue ex eu dui. Aliquam nec viverra libero, ut consectetur mauris.",
                     "video_url": "videos/big_buck_bunny.mp4",
                     "maestro": "Big Buck Bunny",
@@ -71,7 +71,7 @@
                 },
                 {
                     "id": 3,
-                    "name": "3 - Fundamentos de Fe",
+                    "name": "3 - La guía del Espíritu Santo en la Oración",
                     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in nisl vitae urna scelerisque efficitur. Ut a sem sed erat tristique dignissim. Morbi egestas, lorem imperdiet maximus porta, urna dui porttitor leo, vitae tincidunt augue ex eu dui. Aliquam nec viverra libero, ut consectetur mauris.",
                     "video_url": "videos/el_valor_que_doy.mp4",
                     "maestro": "Chak Garcia",
@@ -80,7 +80,7 @@
                 },
                 {
                     "id": 4,
-                    "name": "4 - Ministerios Prácticos",
+                    "name": "4 - Derribando fortalezas",
                     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in nisl vitae urna scelerisque efficitur. Ut a sem sed erat tristique dignissim. Morbi egestas, lorem imperdiet maximus porta, urna dui porttitor leo, vitae tincidunt augue ex eu dui. Aliquam nec viverra libero, ut consectetur mauris.",
                     "video_url": "videos/big_buck_bunny.mp4",
                     "maestro": "Big Buck Bunny",
