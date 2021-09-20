@@ -1,0 +1,68 @@
+/* this stylesheet deals with layout by grid */
+.wrapper {
+	display: grid;
+	grid-gap: 10px;
+	margin: 1%;
+}
+.row {
+	display: flex;
+	flex: 0 1 auto;
+	flex-flow: row wrap;
+	justify-content: center;
+	margin-top: 1%;
+}
+
+.row > div {
+	margin-right: 0.5%;
+}
+
+.cat {
+	background-color: rgba(255, 255, 255, 1);
+	width: 220px;
+	height: 200px;
+	margin: 0;
+	padding-left: 2%;
+	border-radius: 8px;
+	margin-top: 10px;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+	font-size: 9pt;
+	text-align: center;
+}
+
+
+.box {
+  display: flex;
+  align-items: center;
+	justify-content: center;
+	box-sizing: unset;
+}
+
+.imgwrap {
+   width: 50%;
+   margin: 15% 15% 0% 0%;
+}
+.imgwrap img {
+   display: block;
+   width: 160%;
+   max-width: 180px;
+   height: auto;
+   margin: auto;
+}
+
+/* Large devices */
+@media (min-width: 880px) { 
+	header {
+		grid-column: 1 / 10;
+	}
+	section {
+		grid-column: 2 / 10;
+		grid-row: 2 / 3; 
+	}
+	footer {
+		grid-column: 1 / 10;
+	}
+
+}
+
+
+

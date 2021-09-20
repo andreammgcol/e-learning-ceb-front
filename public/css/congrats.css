@@ -1,0 +1,10 @@
+#congrats {
+  background: #fff;
+}
+#congrats h1 {
+  color: #399FA2;
+}
+
+#congrats h2, h4 {
+  color: gray;
+}

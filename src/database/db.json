@@ -1,0 +1,155 @@
+{
+    "students": [
+        {
+            "id": "1",
+            "name": "Andrea Méndez",
+            "img": "images/person_1.jpg",
+            "current_course": 1001,
+            "username": "amendez",
+            "pass": "123456",
+            "courses_registered": [
+                1001,
+                1002
+            ]
+        },
+        {
+            "id": "2",
+            "name": "Pablo Guerra",
+            "img": "images/person_2.jpg",
+            "current_course": "1001",
+            "username": "pguerra",
+            "pass": "123456",
+            "courses_registered": [
+                1001,
+                1002
+            ]
+        },
+        {
+            "id": "3",
+            "name": "Juan Guerra",
+            "img": "images/icons/music2.png",
+            "current_course": "1001",
+            "username": "jguerra",
+            "pass": "123456",
+            "courses_registered": []
+        },
+        {
+            "id": "4",
+            "name": "Mariana Guerra",
+            "img": "images/icons/music2.png",
+            "current_course": "1001",
+            "username": "mguerra",
+            "pass": "123456",
+            "courses_registered": []
+        }
+    ],
+    "courses": [
+        {
+            "id": 1001,
+            "title": "Curso - Modulo 1",
+            "date_start": "09-sep-2021",
+            "date_end": "25-sep-2021",
+            "exam_id": "EX005",
+            "classes": [
+                {
+                    "id": 1,
+                    "name": "1 - Exhibición Leonardo Davinci",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in nisl vitae urna scelerisque efficitur. Ut a sem sed erat tristique dignissim. Morbi egestas, lorem imperdiet maximus porta, urna dui porttitor leo, vitae tincidunt augue ex eu dui. Aliquam nec viverra libero, ut consectetur mauris.",
+                    "video_url": "videos/big_buck_bunny.mp4",
+                    "maestro": "Museo arte moderno",
+                    "duration": "01:15",
+                    "creditos": "15"
+                },
+                {
+                    "id": 2,
+                    "name": "2 - Expocultura 2019",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in nisl vitae urna scelerisque efficitur. Ut a sem sed erat tristique dignissim. Morbi egestas, lorem imperdiet maximus porta, urna dui porttitor leo, vitae tincidunt augue ex eu dui. Aliquam nec viverra libero, ut consectetur mauris.",
+                    "video_url": "videos/sample-5s.mp4",
+                    "maestro": "Jardin Botanico Joaquín Antonio Uribe, MAM",
+                    "duration": "01:15",
+                    "creditos": "8"
+                },
+                {
+                    "id": 3,
+                    "name": "3 - Principios de oracion I",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in nisl vitae urna scelerisque efficitur. Ut a sem sed erat tristique dignissim. Morbi egestas, lorem imperdiet maximus porta, urna dui porttitor leo, vitae tincidunt augue ex eu dui. Aliquam nec viverra libero, ut consectetur mauris.",
+                    "video_url": "videos/sample-15s.mp4",
+                    "maestro": "Reinaldo Murcia",
+                    "duration": "01:15",
+                    "creditos": "8"
+                },
+                {
+                    "id": 4,
+                    "name": "4 - Guerra Espiritual",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in nisl vitae urna scelerisque efficitur. Ut a sem sed erat tristique dignissim. Morbi egestas, lorem imperdiet maximus porta, urna dui porttitor leo, vitae tincidunt augue ex eu dui. Aliquam nec viverra libero, ut consectetur mauris.",
+                    "video_url": "videos/big_buck_bunny.mp4",
+                    "maestro": "Big buck bunny",
+                    "duration": "01:15",
+                    "creditos": "8"
+                }
+            ]
+        }
+    ],
+    "studentsProgress": [
+        {
+            "student_id": 1,
+            "course_id": 1001,
+            "course_progress": {
+                "state": 0,
+                "current_active_class": 1,
+                "count_classes_completed": 0,
+                "total_classes": 4,
+                "course_completed": false,
+                "exam_completed": false
+            },
+            "classes_progress": [
+                {
+                    "class_id": 1,
+                    "completed": false
+                },
+                {
+                    "class_id": 2,
+                    "completed": false
+                },
+                {
+                    "class_id": 3,
+                    "completed": false
+                },
+                {
+                    "class_id": 4,
+                    "completed": false
+                }
+            ]
+        },
+        {
+            "student_id": 2,
+            "course_id": 1001,
+            "course_progress": {
+                "state": 0,
+                "current_active_class": 1,
+                "count_classes_completed": 0,
+                "total_classes": 4,
+                "course_completed": false,
+                "exam_completed": false
+            },
+            "classes_progress": [
+                {
+                    "class_id": 1,
+                    "completed": false
+                },
+                {
+                    "class_id": 2,
+                    "completed": false
+                },
+                {
+                    "class_id": 3,
+                    "completed": false
+                },
+                {
+                    "class_id": 4,
+                    "completed": false
+                }
+            ]
+        }
+    ]
+}

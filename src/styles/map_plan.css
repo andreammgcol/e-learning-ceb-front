@@ -1,0 +1,29 @@
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.border-yes {
+  width: 50%;
+  height: 80px;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  font-size: 9pt;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.border-no {
+  width: 50%;
+  height: 80px;
+}

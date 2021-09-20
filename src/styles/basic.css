@@ -1,0 +1,285 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: white;
+	color: #01627C;
+	margin: 0;
+	padding: 0;
+}
+
+footer {
+	background-color: #01627C;
+	width: 100%;
+	height: 30px;
+	position: relative;
+  bottom: 0;
+}
+
+section {
+	background-color: white;
+	height: auto;
+}
+
+.encabezado {
+  list-style-type: none;
+	padding: 0;
+	margin: 0;
+	height: 100px;
+	background-color: #007BA4;
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+}
+
+.logo > img {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  flex-direction: row;
+  /*align-items: center;
+  box-sizing: unset; */
+  left: 50%;
+}
+
+/* sign in button styles */
+.box-login {
+	display: flex;
+  justify-content: center;
+	align-items: center;
+	background-color: #007BA4;
+	height: 60px;
+	width: 100px;
+	right: 40px;
+	position: absolute;
+}
+.btn {
+	line-height: 50px;
+	height: 50px;
+	text-align: center;
+	width: 100px;
+	cursor: pointer;
+}
+.btn-login {
+	color: white;
+	transition: all 0.5s;
+	position: relative;
+}
+.btn-login::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	background-color: rgba(255,255,255,0.2);
+	transition: all 0.3s;
+}
+.btn-login:hover::before {
+	opacity: 0 ;
+	transform: scale(0.5,0.5);
+}
+.btn-login::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	opacity: 0;
+	transition: all 0.3s;
+	border: 1px solid rgba(255,255,255,0.5);
+	transform: scale(1.2,1.2);
+}
+.btn-login:hover::after {
+	opacity: 1;
+	transform: scale(1,1);
+}
+
+/* button options styles */
+#container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 50px 0 150px 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.options {
+	display: inline-flex;
+  height: 40px;
+  width: 150px;
+  border: 2px solid #FFC909;
+  margin: 20px 20px 20px 20px;
+  color: #01627C;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: .8em;
+  letter-spacing: 1.5px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+a {
+  color: #007BA4;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+#button-7 {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#button-7 a {
+  position: relative;
+  left: 0;
+  transition: all .35s ease-Out;
+}
+
+#dub-arrow {
+  width: 100%;
+  height: 100%;
+  background: #FFC909;
+  left: -200px;
+  position: absolute;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all .35s ease-Out;
+  bottom: 0;
+}
+#button-7 img {
+  width: 20px;
+  height: auto;
+}
+#button-7:hover #dub-arrow {
+  left: 0;
+}
+#button-7:hover a {
+  left: 150px;
+}
+
+/* checkbox style */
+.contCheck {
+  display: block;
+	position: relative;
+	float: right;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.contCheck input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: rgba(71, 181, 190, 1);
+	border: 2px solid rgba(255,255,255,0.5);
+	border-radius: 50%;
+}
+
+.contCheck:hover input  ~ .checkmark {
+  background-color: #47B5BE;
+}
+
+.contCheck input:checked ~ .checkmark {
+  background-color: rgba(71, 181, 190, 1);
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.contCheck input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.contCheck .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/* location styles  */
+.location {
+  width: 100%;
+  height: 50px;
+  background-color: #FFC909;
+}
+
+.search {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  margin-top: 6px;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #00B4CC;
+  border-right: none;
+  padding: 5px;
+  height: auto;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 30%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

@@ -1,0 +1,28 @@
+
+*******************************************************
+To create docker in local env:
+*******************************************************
+git clone 
+docker images
+docker build -t elearning-1-app .
+docker run --name elearning-1-app -p 9205:80 -d elearning-1-app 
+docker image tag elearning-1-app pabloguerra/elearning-1-app:1.0
+docker images
+docker login
+docker push pabloguerra/elearning-1-app:1.0
+
+
+Deploy web in azure with docker image located in docker hub registry:
+****************************************************************************
+az webapp create --resource-group myResourceGroup --plan myAppServicePlan --name <app name> --deployment-container-image-name microsoft/azure-appservices-go-quickstart
+web1, with public container:
+az webapp create --resource-group bootcamp-webapps-group --plan myAppServicePlan --name pg-bootcamp-WebApp01 --deployment-container-image-name microsoft/azure-appservices-go-quickstart 
+web1, with private container. note (credentials were configured in azure portal> container settings):
+az webapp create --resource-group bootcamp-webapps-group --plan myAppServicePlan --name pg-bootcamp-webapp02 --deployment-container-image-name pabloguerra/elearning-1-app:1.0 
+
+https://pg-bootcamp-webapp02.scm.azurewebsites.net/api/logs/docker
+
+Activar los logs de docker:
+az webapp log config --name pg-bootcamp-webapp02 --resource-group bootcamp-webapps-group --docker-container-logging filesystem
+az webapp log tail --name pg-bootcamp-webapp02 --resource-group bootcamp-webapps-group
+
